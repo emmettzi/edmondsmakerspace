@@ -72,6 +72,7 @@
         margin: 0 auto;
         padding: 10px;
         position: relative;
+        width: 50%;
     }
   </style>
 </head>
@@ -92,7 +93,6 @@
               background-color:#f55951;
               border: none;
               height: 360px;
-              width: 60%;
               border-radius: 15px;
               cursor: pointer;
               font-size: xx-large;
@@ -122,7 +122,6 @@
               background-color:#0000FF;
               border: none;
               height: 360px;
-              width: 60%;
               border-radius: 15px;
               cursor: pointer;
               font-size: xx-large;
@@ -134,7 +133,6 @@
               background-color:#568203;
               border: none;
               height: 360px;
-              width: 60%;
               border-radius: 15px;
               cursor: pointer;
               font-size: xx-large;
@@ -142,11 +140,24 @@
               position: relative;
             }
 
+            .midget {
+              color: white;
+              font-size: 50px;
+            }
+
+            .daddy {
+              width: 100%;
+              position: relative;
+              display: flex;
+            }
+
+
           </style>
         
+        <div class="daddy">
           <div class="container">
             <div class="becomemember">
-                <h2>Explorer Pass</h2>
+              <a class="midget" href="checkout.html">Explorer Pass</a>
                 <h3>$29/month</h3>
                 <p>Ideal for occasional makers this plan offers: access to general workspaces and discounted rates on workshops</p>
             </div>
@@ -154,7 +165,7 @@
 
           <div class="container">
             <div class="innovator">
-                <h2>Innovator Pass</h2>
+                <a class="midget" href="checkout2.html">Innovator Pass</a>
                 <h3>$49/month</h3>
                 <p>This pass is perfect for regular creatives having unlimited access to workspace and priority booking for events</p>
             </div>
@@ -162,11 +173,12 @@
 
           <div class="container">
             <div class="Visionary">
-                <h2>Visionary Pass</h2>
+              <a class="midget" href="checkout3.html">Visionary Pass</a>
                 <h3>$99/month</h3>
                 <p>For dedicated makers and entrepreneurs with this pass having 24/7 workspace access and exclusive invitations to member-only events</p>
             </div>
           </div>
+        </div>
       </footer>
 
 
